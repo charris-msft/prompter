@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Prompt Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        button { padding: 10px 20px; font-size: 16px; }
+        #prompt { margin-top: 20px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>Random Prompt Generator</h1>
+    <button onclick="generatePrompt()">Give me a prompt</button>
+    <div id="prompt"></div>
+    <button id="copyButton" style="display:none;" onclick="copyPrompt()">Copy to Clipboard</button>
+    <script src="script.js"></script>
+</body>
+</html>
