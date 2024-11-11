@@ -1,5 +1,4 @@
 const prompts = [
-"How much will this app cost to run each month with [x] traffic?",
 "Can you help me create a new deployment in my AKS cluster?",
 "What is the command to scale a deployment to 5 replicas?",
 "Can you provide the command to expose a deployment as a service?",
@@ -552,7 +551,28 @@ const prompts = [
 "Do I have a GPT4o model deployed in the US?",
 "What is using up my GPT4o model quota?",
 "what are all my resource groups and everything inside each one",
-"list all the resource groups in subscription [subscription name]"
+"list all the resource groups in subscription [subscription name]",
+"Tell me about integrated vectorization",
+"Give me a detailed description of AI Search",
+"Give me a detailed description of Azure AI Search",
+"can I use Container Apps for free?",
+"how do I deploy my azd template to Azure?",
+"Can you help me build an RAG chat app with GPT-4o?",
+"why is my ReallyImportantWebsite webapp running slow?",
+"are there any errors in the logs of my SuperCoolDemo Container App?",
+"List the regions where gpt-4o is available (then 'what about mini')",
+"Help me create an AKS cluster",
+"Which azure services can run my container?",
+"Can you show me the cost breakdown by service for Aug 2024?",
+"Can you show me the cost breakdown by service for Aug 2024 for my current subscription?",
+"What kinds of AI services does Azure offer?",
+"What’s the difference between Azure Container Apps and Azure Kubernetes Service?",
+"What’s the URL for my webapp named [insert name]?",
+"How many storage accounts do I have in eastus?",
+"Summarize the recent logs in my Azure Container Apps/Azure Kubernetes Service application",
+"Help me diagnose a problem with Azure Kubernetes Service",
+"Help me deploy my azd template to the cloud",
+"I'd like to build a Python web API with a MongoDB database and a React.js front end"
 ];
 
 function generatePrompt() {
